@@ -4,10 +4,13 @@ from discord.ext import commands
 from discord.ext.commands Support Bot
 import asyncio
 
-bot commands.bot(command prefix="!"
+bot commands.Bot(command prefix="!"
 @bot.event
 async def on_ready():
-
+   print ("Let us begin! Oh! That is if you're ready of course!")
+   print ("Now, my name is" + bot.user.name)
+   print "OH... and my id is:" + (bot.user.id)
+bot.run("NDIxMTU3NTY2ODQ5MjIwNjA5.DYJLhQ.0n8kLHMI1bNzMrL2wc7WPDCZpy4")   
 
 
 
